@@ -22,7 +22,7 @@ const Header = () => {
 
   const searchQueryHandler = (event) => {
     console.log(event);
-    
+
     if (
       (event?.key === "Enter" || event === "searchButton") &&
       searchQuery?.length > 0
